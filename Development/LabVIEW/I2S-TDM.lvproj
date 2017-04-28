@@ -12,7 +12,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="FPGA Simulations" Type="Folder">
 			<Item Name="8 channel 24-bit TDM Example Simulation.vi" Type="VI" URL="../FPGA Simulations/8 channel 24-bit TDM Example Simulation.vi"/>
-			<Item Name="DigitalChartPlotter.vi" Type="VI" URL="../FPGA Simulations/DigitalChartPlotter.vi"/>
 			<Item Name="Serial Receive Simulation.vi" Type="VI" URL="../FPGA Simulations/Serial Receive Simulation.vi"/>
 			<Item Name="Serial Transfer Simulation.vi" Type="VI" URL="../FPGA Simulations/Serial Transfer Simulation.vi"/>
 			<Item Name="Serial Transmit Receive Simulation.vi" Type="VI" URL="../FPGA Simulations/Serial Transmit Receive Simulation.vi"/>
@@ -119,6 +118,7 @@
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="vi.lib" Type="Folder">
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+					<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				</Item>
 				<Item Name="niFpgaCriticalErrorInLSC.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaCriticalErrorInLSC.vi"/>
 				<Item Name="niFpgaEmulationReportErrorSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationReportErrorSimple.vi"/>
@@ -181,6 +181,10 @@
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+			</Item>
+			<Item Name="DigitalChartPlotter.vi" Type="VI" URL="../FPGA Simulations/DigitalChartPlotter.vi"/>
 			<Item Name="I2S-TDM.lvlib" Type="Library" URL="../../../Source/I2S-TDM.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

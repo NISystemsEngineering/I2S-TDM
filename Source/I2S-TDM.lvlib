@@ -18,6 +18,7 @@
 		<Item Name="Bit Shift In.vi" Type="VI" URL="../SubVIs/Bit Shift In.vi"/>
 		<Item Name="Bit Shift Out.vi" Type="VI" URL="../SubVIs/Bit Shift Out.vi"/>
 		<Item Name="Count Down U8.vi" Type="VI" URL="../SubVIs/Count Down U8.vi"/>
+		<Item Name="Digital Chart Generator.vi" Type="VI" URL="../SubVIs/Digital Chart Generator.vi"/>
 		<Item Name="Edge Detect.vi" Type="VI" URL="../SubVIs/Edge Detect.vi"/>
 		<Item Name="Falling Edge.vi" Type="VI" URL="../SubVIs/Falling Edge.vi"/>
 		<Item Name="Frame Sync In.vi" Type="VI" URL="../SubVIs/Frame Sync In.vi"/>
