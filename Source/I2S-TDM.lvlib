@@ -8,16 +8,18 @@
 
 </Property>
 	<Item Name="Controls" Type="Folder">
-		<Item Name="i2s signals.ctl" Type="VI" URL="../Controls/i2s signals.ctl"/>
+		<Item Name="frame sync states.ctl" Type="VI" URL="../Controls/frame sync states.ctl"/>
+		<Item Name="receiver configuration.ctl" Type="VI" URL="../Controls/receiver configuration.ctl"/>
 		<Item Name="serial receive states.ctl" Type="VI" URL="../Controls/serial receive states.ctl"/>
 		<Item Name="serial transmit states.ctl" Type="VI" URL="../Controls/serial transmit states.ctl"/>
-		<Item Name="tdm configuration.ctl" Type="VI" URL="../Controls/tdm configuration.ctl"/>
-		<Item Name="tdm transmit states.ctl" Type="VI" URL="../Controls/tdm transmit states.ctl"/>
+		<Item Name="sync modes.ctl" Type="VI" URL="../Controls/sync modes.ctl"/>
+		<Item Name="transmitter configuration.ctl" Type="VI" URL="../Controls/transmitter configuration.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Bit Shift In.vi" Type="VI" URL="../SubVIs/Bit Shift In.vi"/>
 		<Item Name="Bit Shift Out.vi" Type="VI" URL="../SubVIs/Bit Shift Out.vi"/>
 		<Item Name="Count Down U8.vi" Type="VI" URL="../SubVIs/Count Down U8.vi"/>
+		<Item Name="Count Up U8.vi" Type="VI" URL="../SubVIs/Count Up U8.vi"/>
 		<Item Name="Digital Chart Generator.vi" Type="VI" URL="../SubVIs/Digital Chart Generator.vi"/>
 		<Item Name="Edge Detect.vi" Type="VI" URL="../SubVIs/Edge Detect.vi"/>
 		<Item Name="Falling Edge.vi" Type="VI" URL="../SubVIs/Falling Edge.vi"/>
@@ -28,7 +30,6 @@
 		<Item Name="Rising Edge.vi" Type="VI" URL="../SubVIs/Rising Edge.vi"/>
 		<Item Name="Serial Receive.vi" Type="VI" URL="../SubVIs/Serial Receive.vi"/>
 		<Item Name="Serial Transmit.vi" Type="VI" URL="../SubVIs/Serial Transmit.vi"/>
-		<Item Name="U8 Counter.vi" Type="VI" URL="../SubVIs/U8 Counter.vi"/>
 	</Item>
 	<Item Name="VIs" Type="Folder">
 		<Item Name="Receive.vi" Type="VI" URL="../VIs/Receive.vi"/>
