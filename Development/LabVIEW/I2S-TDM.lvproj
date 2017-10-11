@@ -21,6 +21,12 @@
 				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=50.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EUSB-7856R/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_SIM_IOFPGA_TARGET_CLASSUSB_7856RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector1/AI0=0,rseries.aio./Connector1/AI1=0,rseries.aio./Connector1/AI2=0,rseries.aio./Connector1/AI3=0,rseries.aio./Connector1/AI4=0,rseries.aio./Connector1/AI5=0,rseries.aio./Connector1/AI6=0,rseries.aio./Connector1/AI7=0,rseries.analogCalibratedType=1,rseries.hsdio=0,rseries.lsdio=0,rseries.terminalConfig=0[rSeriesConfig.End]</Property>
 			</Item>
 		</Item>
+		<Item Name="Test VIs" Type="Folder">
+			<Item Name="Frame Sync Test.vi" Type="VI" URL="../Test VIs/Frame Sync Test.vi">
+				<Property Name="configString.guid" Type="Str">{04DC258C-E8EF-4116-949E-CF04D9AEC3E3}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=50.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{AA5FFF75-2DB1-4201-B6BB-983E0C452943}Multiplier=196.000000;Divisor=319.000000{DD57EC60-A726-4E11-BAF8-B536320C2FD0}Multiplier=35.000000;Divisor=62.000000USB-7856R/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_SIM_IOFPGA_TARGET_CLASSUSB_7856RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector1/AI0=0,rseries.aio./Connector1/AI1=0,rseries.aio./Connector1/AI2=0,rseries.aio./Connector1/AI3=0,rseries.aio./Connector1/AI4=0,rseries.aio./Connector1/AI5=0,rseries.aio./Connector1/AI6=0,rseries.aio./Connector1/AI7=0,rseries.analogCalibratedType=1,rseries.hsdio=0,rseries.lsdio=0,rseries.terminalConfig=0[rSeriesConfig.End]</Property>
+				<Property Name="configString.name" Type="Str">22.58MHzMultiplier=35.000000;Divisor=62.00000024.576MHzMultiplier=196.000000;Divisor=319.00000040 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=50.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EUSB-7856R/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_SIM_IOFPGA_TARGET_CLASSUSB_7856RFPGA_TARGET_FAMILYKINTEX7TARGET_TYPEFPGA/[rSeriesConfig.Begin]rseries.aio./Connector1/AI0=0,rseries.aio./Connector1/AI1=0,rseries.aio./Connector1/AI2=0,rseries.aio./Connector1/AI3=0,rseries.aio./Connector1/AI4=0,rseries.aio./Connector1/AI5=0,rseries.aio./Connector1/AI6=0,rseries.aio./Connector1/AI7=0,rseries.analogCalibratedType=1,rseries.hsdio=0,rseries.lsdio=0,rseries.terminalConfig=0[rSeriesConfig.End]</Property>
+			</Item>
+		</Item>
 		<Item Name="VIPM" Type="Folder">
 			<Item Name="I2S-TDM IP.vipb" Type="Document" URL="../../I2S-TDM IP.vipb"/>
 		</Item>
@@ -183,58 +189,38 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Append Digital Samples.vi"/>
+				<Item Name="Binary to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Binary to Digital.vi"/>
+				<Item Name="Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Boolean Array to Digital.vi"/>
+				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
+				<Item Name="Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Compress Digital.vi"/>
+				<Item Name="Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital Size.vi"/>
+				<Item Name="Digital to Binary.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Digital to Binary.vi"/>
+				<Item Name="DTbl Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Append Digital Samples.vi"/>
+				<Item Name="DTbl Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U8 to Digital.vi"/>
+				<Item Name="DTbl Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U16 to Digital.vi"/>
+				<Item Name="DTbl Binary U32 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Binary U32 to Digital.vi"/>
+				<Item Name="DTbl Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Boolean Array to Digital.vi"/>
+				<Item Name="DTbl Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Compress Digital.vi"/>
+				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
+				<Item Name="DTbl Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U8.vi"/>
+				<Item Name="DTbl Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U16.vi"/>
+				<Item Name="DTbl Digital to Binary U32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital to Binary U32.vi"/>
+				<Item Name="DWDT Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Append Digital Samples.vi"/>
+				<Item Name="DWDT Binary U8 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U8 to Digital.vi"/>
+				<Item Name="DWDT Binary U16 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U16 to Digital.vi"/>
+				<Item Name="DWDT Binary U32 to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Binary U32 to Digital.vi"/>
+				<Item Name="DWDT Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Boolean Array to Digital.vi"/>
+				<Item Name="DWDT Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Compress Digital.vi"/>
+				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
+				<Item Name="DWDT Digital to Binary U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U8.vi"/>
+				<Item Name="DWDT Digital to Binary U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U16.vi"/>
+				<Item Name="DWDT Digital to Binary U32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital to Binary U32.vi"/>
+				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
+				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
-			<Item Name="EIOAttributeSet_GetResource.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lveio/public/EIOAttributeSet_GetResource.vi"/>
-			<Item Name="EIOResourceStatus.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lveio/public/EIOResourceStatus.ctl"/>
-			<Item Name="EIOXNodeErrorStruct.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/Errors/EIOXNodeErrorStruct.ctl"/>
-			<Item Name="EIOXNodeInternalErrorTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/Errors/EIOXNodeInternalErrorTypes.ctl"/>
-			<Item Name="EIOXNodeUserErrorTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/Errors/EIOXNodeUserErrorTypes.ctl"/>
-			<Item Name="Fpga_GetTDFromRscTree.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Dialog/Dialog_Helpers/Fpga_GetTDFromRscTree.vi"/>
 			<Item Name="I2S-TDM.lvlib" Type="Library" URL="../../../Source/I2S-TDM.lvlib"/>
-			<Item Name="niFpgaCriticalErrorInLSC.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaCriticalErrorInLSC.vi"/>
-			<Item Name="niFpgaDEN_AdvanceSim.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_AdvanceSim.vi"/>
-			<Item Name="niFpgaDEN_CheckControlTypeChange.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_CheckControlTypeChange.vi"/>
-			<Item Name="niFpgaDEN_CheckForMissingVI.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_CheckForMissingVI.vi"/>
-			<Item Name="niFpgaDEN_CheckIOExists.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_CheckIOExists.vi"/>
-			<Item Name="niFpgaDEN_CheckIOTypeChange.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_CheckIOTypeChange.vi"/>
-			<Item Name="niFpgaDEN_Command.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_Command.ctl"/>
-			<Item Name="niFpgaDEN_Commands.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_Commands.ctl"/>
-			<Item Name="niFpgaDEN_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_Execute.vi"/>
-			<Item Name="niFpgaDEN_GetControlRefFromUID.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_GetControlRefFromUID.vi"/>
-			<Item Name="niFpgaDEN_Read.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_Read.vi"/>
-			<Item Name="niFpgaDEN_ReportRuntimeError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_ReportRuntimeError.vi"/>
-			<Item Name="niFpgaDEN_ResourceInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_ResourceInfo.ctl"/>
-			<Item Name="niFpgaDEN_ResourceInfos.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_ResourceInfos.ctl"/>
-			<Item Name="niFpgaDEN_RunSimOnFirstCall.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_RunSimOnFirstCall.vi"/>
-			<Item Name="NiFpgaDEN_SimulationStrings.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/NiFpgaDEN_SimulationStrings.vi"/>
-			<Item Name="niFpgaDEN_StartSimOnFirstCall.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_StartSimOnFirstCall.vi"/>
-			<Item Name="niFpgaDEN_VerifyResourceStates.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_VerifyResourceStates.vi"/>
-			<Item Name="niFpgaDEN_VerifyTargetState.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_VerifyTargetState.vi"/>
-			<Item Name="niFpgaDEN_Write.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_Write.vi"/>
-			<Item Name="niFpgaEmulError.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/niFpgaEmulError.ctl"/>
-			<Item Name="niFpgaGenCallStack.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaGenCallStack.vi"/>
-			<Item Name="niFpgaGetClockAttributesFromContext.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributesFromContext.vi"/>
-			<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-			<Item Name="niFpgaProcessEmulError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaProcessEmulError.vi"/>
-			<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
-			<Item Name="niLscGetDllPaths.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Simulation/niLscGetDllPaths.vi"/>
-			<Item Name="niLvFpga_StartLsc.vi" Type="VI" URL="/&lt;resource&gt;/RVI/templatesForScripting/niLvFpga_StartLsc.vi"/>
-			<Item Name="niLvFpga_VIExecutionMode_GetPropertiesFromProject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvfpga.llb/niLvFpga_VIExecutionMode_GetPropertiesFromProject.vi"/>
-			<Item Name="niLvFpga_VIExecutionMode_GetTags.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvfpga.llb/niLvFpga_VIExecutionMode_GetTags.vi"/>
-			<Item Name="niLvFpga_VIExecutionMode_RadioButtons.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvfpga.llb/niLvFpga_VIExecutionMode_RadioButtons.ctl"/>
-			<Item Name="niLvFpga_VIExecutionMode_SWEmulationSubMode.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvfpga.llb/niLvFpga_VIExecutionMode_SWEmulationSubMode.ctl"/>
-			<Item Name="nirviCleanSpecificError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/nirviCleanSpecificError.vi"/>
-			<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-			<Item Name="nirviFillInErrorInfo.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviFillInErrorInfo.vi"/>
-			<Item Name="nirviGetToplevelTsByTargetItem.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviGetToplevelTsByTargetItem.vi"/>
-			<Item Name="nirviReportUnexpectedCaseInternalError (Bool).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (Bool).vi"/>
-			<Item Name="nirviReportUnexpectedCaseInternalError (String).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (String).vi"/>
-			<Item Name="nirviReportUnexpectedCaseInternalError (U32).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (U32).vi"/>
-			<Item Name="nirviReportUnexpectedCaseInternalError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError.vi"/>
-			<Item Name="nirviReportUnexpectedCaseInternalErrorHelper.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalErrorHelper.vi"/>
-			<Item Name="nirviTopLevelTSIsDefaultTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSIsDefaultTag.vi"/>
-			<Item Name="nirviTopLevelTSTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSTag.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

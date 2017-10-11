@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-21 14:06:02" Modified_Date="2017-05-11 16:16:24" Creator="a" Comments="" ID="c922d16e0a57a13154b23096dc65afaa">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-04-21 14:06:02" Modified_Date="2017-10-11 13:59:34" Creator="a" Comments="" ID="3e65846be98e9f3df5d7c8a9b5a77d84">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_I2S_TDM_IP</Package_File_Name>
-    <Library_Version>0.3.5.10</Library_Version>
+    <Library_Version>0.4.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -32,7 +32,10 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes/>
+      <Release_Notes>0.4.0.10:
+Rewrote core coomponents of the Receiver to correct some logic issues.
+Frame delay can now be specificed directly as an integer in the configuration. Valid values are 0 (no delay) up to 255 cycles.
+Rewrote serial receiver core to ensure it was compatible with the frame delay changes.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -270,7 +273,7 @@
         <Path>..\Source\VIs\Receive.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4CDF87885D4C77C70B398D4D50D355A9</GUID>
+      <GUID>860522C098488B3C073CC23E6F820FCE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
