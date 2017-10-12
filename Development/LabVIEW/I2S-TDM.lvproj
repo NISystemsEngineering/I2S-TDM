@@ -159,8 +159,6 @@
 				<Item Name="nirviTopLevelTSIsDefaultTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSIsDefaultTag.vi"/>
 				<Item Name="nirviTopLevelTSTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSTag.vi"/>
 				<Item Name="nirviWaitOnOccurrenceBase.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/occurrence/nirviWaitOnOccurrenceBase.vi"/>
-				<Item Name="Receive.vi" Type="VI" URL="../../../Documents/GitHub/I2S-TDM/Source/VIs/Receive.vi"/>
-				<Item Name="receiver configuration.ctl" Type="VI" URL="../../../Documents/GitHub/I2S-TDM/Source/Controls/receiver configuration.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="8-channel 24-bit TDM Transmit" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -267,56 +265,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="EIOAttributeSet_GetResource.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lveio/public/EIOAttributeSet_GetResource.vi"/>
-			<Item Name="EIOResourceStatus.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lveio/public/EIOResourceStatus.ctl"/>
-			<Item Name="EIOXNodeErrorStruct.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/Errors/EIOXNodeErrorStruct.ctl"/>
-			<Item Name="EIOXNodeInternalErrorTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/Errors/EIOXNodeInternalErrorTypes.ctl"/>
-			<Item Name="EIOXNodeUserErrorTypes.ctl" Type="VI" URL="/&lt;vilib&gt;/eio/XNode/Errors/EIOXNodeUserErrorTypes.ctl"/>
-			<Item Name="Fpga_GetTDFromRscTree.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Dialog/Dialog_Helpers/Fpga_GetTDFromRscTree.vi"/>
 			<Item Name="I2S-TDM.lvlib" Type="Library" URL="../../../Source/I2S-TDM.lvlib"/>
-			<Item Name="niFpgaCriticalErrorInLSC.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaCriticalErrorInLSC.vi"/>
-			<Item Name="niFpgaDEN_AdvanceSim.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_AdvanceSim.vi"/>
-			<Item Name="niFpgaDEN_CheckControlTypeChange.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_CheckControlTypeChange.vi"/>
-			<Item Name="niFpgaDEN_CheckForMissingVI.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_CheckForMissingVI.vi"/>
-			<Item Name="niFpgaDEN_CheckIOExists.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_CheckIOExists.vi"/>
-			<Item Name="niFpgaDEN_CheckIOTypeChange.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_CheckIOTypeChange.vi"/>
-			<Item Name="niFpgaDEN_Command.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_Command.ctl"/>
-			<Item Name="niFpgaDEN_Commands.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_Commands.ctl"/>
-			<Item Name="niFpgaDEN_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_Execute.vi"/>
-			<Item Name="niFpgaDEN_GetControlRefFromUID.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_GetControlRefFromUID.vi"/>
-			<Item Name="niFpgaDEN_Read.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_Read.vi"/>
-			<Item Name="niFpgaDEN_ReportRuntimeError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_ReportRuntimeError.vi"/>
-			<Item Name="niFpgaDEN_ResourceInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_ResourceInfo.ctl"/>
-			<Item Name="niFpgaDEN_ResourceInfos.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_ResourceInfos.ctl"/>
-			<Item Name="niFpgaDEN_RunSimOnFirstCall.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_RunSimOnFirstCall.vi"/>
-			<Item Name="NiFpgaDEN_SimulationStrings.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/NiFpgaDEN_SimulationStrings.vi"/>
-			<Item Name="niFpgaDEN_StartSimOnFirstCall.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_StartSimOnFirstCall.vi"/>
-			<Item Name="niFpgaDEN_VerifyResourceStates.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_VerifyResourceStates.vi"/>
-			<Item Name="niFpgaDEN_VerifyTargetState.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_VerifyTargetState.vi"/>
-			<Item Name="niFpgaDEN_Write.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/Execution/niFpgaDEN_Write.vi"/>
-			<Item Name="niFpgaEmulError.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/DesktopExecutionNode/niFpgaEmulError.ctl"/>
-			<Item Name="niFpgaGenCallStack.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaGenCallStack.vi"/>
-			<Item Name="niFpgaGetClockAttributesFromContext.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaGetClockAttributesFromContext.vi"/>
-			<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
-			<Item Name="niFpgaProcessEmulError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaProcessEmulError.vi"/>
-			<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
-			<Item Name="niLscGetDllPaths.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Simulation/niLscGetDllPaths.vi"/>
-			<Item Name="niLvFpga_StartLsc.vi" Type="VI" URL="/&lt;resource&gt;/RVI/templatesForScripting/niLvFpga_StartLsc.vi"/>
-			<Item Name="niLvFpga_VIExecutionMode_GetPropertiesFromProject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvfpga.llb/niLvFpga_VIExecutionMode_GetPropertiesFromProject.vi"/>
-			<Item Name="niLvFpga_VIExecutionMode_GetTags.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvfpga.llb/niLvFpga_VIExecutionMode_GetTags.vi"/>
-			<Item Name="niLvFpga_VIExecutionMode_RadioButtons.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvfpga.llb/niLvFpga_VIExecutionMode_RadioButtons.ctl"/>
-			<Item Name="niLvFpga_VIExecutionMode_SWEmulationSubMode.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/lvfpga.llb/niLvFpga_VIExecutionMode_SWEmulationSubMode.ctl"/>
-			<Item Name="nirviCleanSpecificError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/nirviCleanSpecificError.vi"/>
-			<Item Name="nirviEmuReportErrorAndStop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/nirviEmuReportErrorAndStop.vi"/>
-			<Item Name="nirviFillInErrorInfo.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviFillInErrorInfo.vi"/>
-			<Item Name="nirviGetToplevelTsByTargetItem.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviGetToplevelTsByTargetItem.vi"/>
-			<Item Name="nirviReportUnexpectedCaseInternalError (Bool).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (Bool).vi"/>
-			<Item Name="nirviReportUnexpectedCaseInternalError (String).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (String).vi"/>
-			<Item Name="nirviReportUnexpectedCaseInternalError (U32).vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError (U32).vi"/>
-			<Item Name="nirviReportUnexpectedCaseInternalError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalError.vi"/>
-			<Item Name="nirviReportUnexpectedCaseInternalErrorHelper.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/nirviReportUnexpectedCaseInternalErrorHelper.vi"/>
-			<Item Name="nirviTopLevelTSIsDefaultTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSIsDefaultTag.vi"/>
-			<Item Name="nirviTopLevelTSTag.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/ClientSDK/Core/TimingSources/Configuration/Private/nirviTopLevelTSTag.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
